@@ -1,0 +1,25 @@
+<mvc:View controllerName="bookSystem.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:f="sap.f"
+    xmlns:card="sap.ui.integration.widgets">
+    <Page title="SearchBook" showHeader="false"  enableScrolling="false">
+    <headerContent>
+      </headerContent>
+      <subHeader>
+         <Bar>
+            <contentMiddle>
+               <Input
+                  id="searchInput"
+                  width="80%"
+                  placeholder="Buscar livro pelo título..."/>
+               <Button
+                  text="Buscar"
+                  press=".searchBook"/>
+            </contentMiddle>
+         </Bar>
+      </subHeader>
+
+    </Page>
+</mvc:View>
