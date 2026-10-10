@@ -1,0 +1,42 @@
+<mvc:View
+	controllerName="bookSystem.controller.App"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:tnt="sap.tnt">
+	displayBlock="true">
+	<Shell>
+		<App id="app">
+			<tnt:ToolPage id="toolPage">
+            <tnt:header>
+                <tnt:ToolHeader>
+                    <Image src="img/SAP_2011_logo.png" class="sapLogo" />
+                    <Title text="My BooksShelf"/>
+                </tnt:ToolHeader>
+            </tnt:header>
+         <!--    <tnt:sideContent>
+                <tnt:SideNavigation id="side-navigation" itemSelect=".onSideNavItemSelect">
+                    <tnt:NavigationList>
+                        <tnt:NavigationListItem
+                            id="nav-overview"
+                            text="Bookshelf"
+                            icon="sap-icon://home"
+                            key="overview"/>
+                        <tnt:NavigationListItem
+                            id="skills-nav-list"
+                            text="Skills"
+                            icon="sap-icon://bar-chart"
+                            key="skills"
+                            expanded="true">
+                        </tnt:NavigationListItem>
+                    </tnt:NavigationList>
+                </tnt:SideNavigation>
+            </tnt:sideContent> -->
+            <tnt:mainContents>
+                <NavContainer id="mainNavContainer"/>
+            </tnt:mainContents>
+        </tnt:ToolPage>
+		</App>
+	</Shell>
+</mvc:View>
+
+
